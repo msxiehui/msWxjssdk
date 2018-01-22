@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iforce-wx Demo</title>
+</head>
+<body>
+
+<script src="zepto.min.js"></script>
+<script src="iforce-wx.js"></script>
+<script >
+
+
+    JSSDK.init({
+
+        shareTimeline:1,
+        ShareQZone:1,
+        shareQQ:{
+            title:"标题",
+            doc:"内容",
+            img:"图片",
+            link:"链接",
+            success:function () {
+
+            },
+            cancel:function () {
+
+            }
+        }
+
+    })
+    console.log();
+
+</script>
+</body>
+</html>

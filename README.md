@@ -1,1 +1,1 @@
-# msWxjssdk
+# msWxjssdk###微信JSSDK的封装
